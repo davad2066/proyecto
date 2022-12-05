@@ -1,0 +1,70 @@
+h1{
+    margin-left: 3vw;
+    margin-top: 5vw;
+    color: blue;
+}
+.info_p{
+    width: 60%;
+    outline: 2px solid red;
+}
+.info_p p{
+    margin: 5vw;
+}
+.info_img{
+    
+    height: 20vw;
+    margin: 1vw;
+    width: 40%;
+    /* margin-right: 3vw; */
+    background-image: url(img/ortodoncia.jpg);
+    background-size: cover;
+}
+h2{
+    text-align: center;
+    margin: 5vw 0;
+}
+
+/* servicios */
+
+#info_servicio{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    outline: 2px solid red;
+}
+#info_servicio .servicio{
+    outline: 5px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.servicio .caja{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.info_imgs{
+    outline: 2px solid green;
+    height: 20vw;
+    margin: 1vw;
+    width: 40%;
+    /* margin-right: 3vw; */
+    background-image: url(img/ortodoncia.jpg);
+    background-size: cover;
+}
+
+.info_ps{
+    width: 60%;
+    outline: 2px solid green;
+}
+.info_ps h3{
+    outline: 2px solid blue;
+    width: 100%;
+    padding-left: 5vw;
+    padding-top: 2vw;
+}
+.info_ps p{
+    margin: 4.5vw;
+}

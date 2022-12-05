@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;1,500&display=swap'); 
+
+/* font-family: 'Chivo', sans-serif; */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+/*--------PALETA COLORES_ HEAD--------- */
+:root{
+    
+
+/*--------PALETA COLORES_ HEADER--------- */
+--azul_nav: #5e9ace;
+/*--------PALETA COLORES_ FOOTER--------- */
+
+}
+.head{
+    /* outline: 2px solid purple; */
+    background-color: aqua;
+    width: 100%;
+
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    
+}
+.head i{
+    color: blue;
+    font-size: 1.8em;
+    margin-left: 3vw;
+}
+.head p{
+    font-family:'Chivo', sans-serif; ;
+    color: black;
+    margin-left: 3vw;
+    margin-top: 1vw;
+    font-size: 1em;
+}
+.div-head{
+    /* outline: 2px solid blue; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2vw;
+}
+.div-head i{
+    /* outline: 2px solid blue; */
+    margin-right: 1vw;
+    color: blue;
+}
+.div-head i:hover{
+    color: white;
+    transition: 0.8s;
+}
+/* ------------HEADER----------- */
+header {
+    background-color: var(--azul_nav);
+    width: 100%;
+    height: 11.5vh;
+    /* border-bottom: 0.2vw solid white; */
+}
+header .container{
+    /* outline: 2px springgreen solid; */
+    margin-top: 0%;
+    padding: 0%;
+}
+#logo-img{
+    /* outline: 2px solid darkgreen; */
+    width: 40%;
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: 8px;
+}
+.brand{
+    
+    color: white;
+    width: 40%;
+    height: 100%;
+    margin-top: 0%;
+    padding: 0%;
+}
+.item-navbar{
+    /* outline: 2px solid white; */
+    color: white;
+    font-family: 'Chivo', sans-serif;;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 1.5vw;
+    margin: 0 1vw;
+    padding: 2px;
+}
+.item-navbar:hover{
+    /* text-decoration: underline; */
+    color: white;
+    background-color: aqua;
+    transition: 0.3s;
+    border-radius: 50px;
+}
+.navbar-toggler {
+    outline: 3px solid red;
+    padding: 0.3vw;
+    line-height: 0.1vw;
+    background-color: white;
+}
+
+@media (max-width: 1000px) {
+    .icono{
+    display: none;}
+}
+/*==================
+
+/* icono whatsaap */
+.whatsapp_fixed {
+    outline: 2px solid red;
+    display: flex;
+    position: fixed;
+    right: 10px;
+    z-index: 100;
+    bottom: 100px;
+    width: 70px;
+    height: 80px;
+    transition: 1s;
+    overflow: hidden;
+}
+.icono-whatsapp{
+    width: 20%;
+    height: 100%;
+    padding-top: 5px;
+}
+.icono-whatsapp img{
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+}
+.texto-whatsapp{
+    color: white;
+    text-align: center;
+    width: 80%;
+    
+}
+.whatsapp_fixed:hover{
+    background-color: blue;
+    width: 14vw;
+    transition: 1s;
+}
+/* icono calendario */
+.whatsapp_fixed-1 {
+    display: flex;
+    position: fixed;
+    right: 10px;
+    z-index: 1;
+    bottom: 10px;
+    width: 70px;
+    height: 80px;
+    transition: 1s;
+    overflow: hidden;
+}
+.whatsapp_fixed-1 i {
+    color: rgb(0, 255, 13);
+    font-size: 70px;
+    padding-top: 8px;
+
+}
+.whatsapp_fixed-1:hover{
+    background-color: blue;
+    width: 14vw;
+    transition: 1s;
+}
+
+/*---------------------------------------------Footer---------------------------------------------*/
+.footer{
+    background-color: rgb(20, 108, 108);
+    height: 15vw;
+}
+/*---------------------------------------------Footer---------------------------------------------*/

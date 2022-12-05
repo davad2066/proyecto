@@ -1,0 +1,236 @@
+#seccion_inicio{
+    width: 100%;
+    /* height: 300px; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+
+    /* border-bottom: 2px solid black; */
+    background-color: tomato;
+}
+#seccion_inicio h1{
+    /* outline: 2px solid green; */
+    width: 100%;
+    /* height: 50px; */
+    margin-top: 3vw;
+    font-size: 3em;
+    font-family: 'Chivo', sans-serif;;
+    color: white;
+    
+}
+#seccion_inicio h2{
+    /* outline: 2px solid blue; */
+    width: 100%;
+    font-family: 'Chivo', sans-serif;;
+    margin-bottom: 3vw;
+    color: aquamarine;
+    font-size: 2em;
+}
+
+
+/* ------PROCEDIMIENTO-------- */
+
+
+#informacion{
+    display: flex;
+    justify-content: center;
+}
+.orden{ 
+    /* outline: 2px solid red; */
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3vw;
+}
+.informacion_o{
+    border: 2px solid blue;
+    border-radius: 25px;
+    width: 32%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+.info_img{
+    /* outline: 2px solid blue; */
+    width: 20%;
+    /* border-radius: 50%; */
+    margin: 5px;
+    text-align: center;
+}
+.info_img i{
+    width: 100%;
+    height: 100%;
+    font-size: 4.5em;
+    color: blue;
+}
+.info_text{
+    font-family: 'Chivo', sans-serif;;
+    width: 80%;
+    padding-top: 2vw;
+    padding-left: 10px;
+    
+}
+.info_text a{
+    text-decoration: none;
+}
+
+.info_text_1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.info_text_1 p{
+    font-family: 'Chivo', sans-serif;;
+    width: 100%;
+    text-align: center;
+}
+.info_text_1 button{
+    width: 45%;
+    border-radius: 50px;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    font-family: 'Chivo', sans-serif;;
+    font-size: 1em;
+}
+.info_text_1 button a{
+    text-decoration: none;
+    color: white;
+}
+.info_text_1 button:hover{
+    background-color: aquamarine;
+    color: blue;
+    transition: 0.3s;
+}
+/* --------SECCION_DATOS----------- */
+#data_imp{
+    margin-top: 3vw;
+    /* outline: 2px solid red; */
+    width: 100%;
+    
+}
+#data_imp .imp{
+    /* outline: 2px solid blue; */
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+#data_imp .imp h2{
+    /* outline: 2px solid red; */
+    font-family: 'Chivo', sans-serif;;
+    text-align: center;
+    padding-top: 10px;
+    color: blue;
+}
+#data_imp .imp p{
+    font-family: 'Chivo', sans-serif;;
+    text-align: center;
+    padding-top: 20px;
+    padding: 2vw;
+
+}
+
+/* ---------formulario----------- */
+
+#cita{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 4vw;
+    background-image: url(img/form.jpg);
+    background-size: cover;
+}
+#cita h2{
+    /* outline: 2px solid blue; */
+    font-family: 'Chivo', sans-serif;;
+    color: blue;
+    margin-top: 2vw;
+    width: 100%;
+    text-align: right;
+    padding-right: 9vw;
+}
+.solicitar-cita{
+    /* outline: 2px solid red; */
+    width: 40%;
+    height: 100%;
+    margin-right: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+}
+.solicitar-cita p{
+    font-family: 'Chivo', sans-serif;;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1vw 3vw;
+}
+.solicitar-info-1{
+    font-family: 'Chivo', sans-serif;;
+    color: blue;
+    padding: 0.5vw 3vw;
+    font-size: 1.5rem;
+
+}
+.solicitar-info-2-1{
+    font-family: 'Chivo', sans-serif;;
+    color: blue;
+    width: 55%;
+}
+.solicitar-info-2-2{
+    color: blue;
+    font-family: 'Chivo', sans-serif;;
+    padding: 0 0 0 3vw;
+}
+.solicitar-info-2{
+    font-family: 'Chivo', sans-serif;;
+    display: flex;
+    padding: 0.5vw 3vw;
+    font-size: 1.5rem;
+}
+.solicitar-info-2 input{
+    
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.solicitar-info-1 input{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.solicitar-info-1 textarea{
+    border: 2px solid black;
+    border-radius: 20px;
+    resize: none;
+}
+.enviar{
+    display: flex;
+    justify-content: center;
+}
+.enviar-info{
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    padding: 0.2vw 2vw;
+    font-size: 1.2rem;
+    margin: 1vw 0;
+}
+.enviar-info:hover{
+    background-color: aqua;
+    color: blue;
+    transition: 0.8s;
+}
+
+/* UBICACION */
+
+#ubi{
+    /* outline: 2px solid black; */
+    width: 100%;
+    height: 450px;
+    /* background-color: aquamarine; */
+}

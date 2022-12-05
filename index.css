@@ -1,0 +1,164 @@
+
+/*--------Img Principal-----------*/
+.boton-cita{
+    border: 2px solid blue;
+    border-radius: 35px;
+    background-color: rgba(0, 0, 255, 0.589);
+    padding: 10px;
+    color: white;
+    font-family: 'Chivo', sans-serif;;
+    font-size: 1.5em;
+    text-transform: uppercase;   
+}
+.boton-cita:hover{
+    background-color: aquamarine;
+    color:blue;
+    transition: 1s;
+}
+#cita{
+    width: 100%;
+    height: 450px;
+    background-image: url("img/doctor_dentista.jpg");
+    background-size: cover;
+    display: flex;
+}
+.div-boton-cita{
+    height: 90%;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    position: relative;
+    justify-content: left;
+    padding-left: 12%;
+    align-items: flex-end;
+}
+/*-------Img Principal Cotizar-------*/
+#pq_elegirnos{
+    /* outline: 2px solid red; */
+    width: 100%;
+    background-image: url(img/doctor.jpg);
+    padding-left: 2vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    background-size: cover;
+    background-position: 0 -12vw;
+    
+}
+#pq_elegirnos .elegirnos{
+    /* outline: 2px solid blue; */
+    background-color: rgba(255, 255, 255, 0.216);
+    border-radius: 25px;
+    width: 35%;
+    height: 100%;
+}
+#pq_elegirnos .elegirnos h2{
+    font-family: 'Chivo', sans-serif;;
+    font-size: 2em;
+    color: blue;
+    text-align: center;
+}
+#pq_elegirnos .elegirnos p{
+    font-family: 'Chivo', sans-serif;;
+    margin-top: 2vw;
+    width: 30vw;
+    font-size: 1em;
+    padding-left: 20px;  
+}
+
+/* #pq_elegirnos .elegirnos button{
+    width: 65%;
+    font-size: 2em;
+    margin-top: 2vw;
+    margin-left: 5vw;
+    border: 2px solid blue;
+    background-color: rgba(0, 0, 255, 0.589);
+    border-radius: 35px;
+    padding: 10px;
+    color: white;
+} */
+/*----------Cotizar Service-----------------*/
+#servicios{
+    /* outline: 2px solid red; */
+    background-color: blue;
+    /* margin-top: 5vw; */
+    /* margin-bottom: 5vw; */
+
+}
+.centro_servicios{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.card-service{
+    outline: 5px solid green;
+    margin: 3vw;
+    width: 20%;
+    height: 120px;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+.card-service .icon{
+    outline: 2px solid red;
+    
+    width: 100%;
+    height: 50%;
+}
+.card-service .icon img{
+    /* outline: 2px solid blue; */
+    width: 30%;
+    height: 100%;
+    
+}
+.card-service .icon i{
+    outline: 2px solid red;
+    height: 100%;
+    font-size: 3em;
+    color: aqua;
+}
+.card-service p{
+    /* outline: 2px solid red; */
+    font-family: 'Chivo', sans-serif;;
+    font-size: 1em;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    text-decoration: none;
+    
+}
+/* -----------NOTICIAS---------------- */
+.div-notice-h2{
+    /* outline: 2px solid red; */
+    font-family: 'Chivo', sans-serif;;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-left: 5vw;
+    margin-bottom:0%;
+    background-color: rgba(0, 72, 255, 0.4);
+}
+.slider{
+    /* outline: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.slide{
+    width: 100%;
+    padding: 2vw;
+    background-color: rgba(0, 72, 255, 0.4);
+    font-size: 1.4vw;
+    display: flex;
+}
+.carousel-item div{
+    display: flex;
+    justify-content: center;
+}
+.carousel-item img{
+    width: 25vw;
+    padding: 0 2vw;
+}
+
+/*---------------------------------------------Slider---------------------------------------------*/
+
